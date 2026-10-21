@@ -17,7 +17,7 @@
 
 - 운영체제 : Windows 10/11
 - 사용언어 : Java, JavaScript, HTML, CSS
-- FrameWork/Library : Spring Framework, MyBatis, Bootstrap
+- FrameWork/Library : Spring Boot 2.7 (Spring Framework), MyBatis, Bootstrap
 - DB : Oracle
 - Tool : Spring Tool Suite, Visual Studio Code, DBeaver, Jenkins, AWS
 - WAS : Apache Tomcat
