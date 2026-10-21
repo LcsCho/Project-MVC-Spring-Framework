@@ -5,11 +5,19 @@
 - 개발 기간 : 2023.11.08 ~ 2023.11.28
 - 개발 목적 : 영화를 좋아하는 사람들을 위한 영화 추천 서비스 제공, 커뮤니티 형성, 회원들을 기반으로 한 평가 데이터 수집
 
+### 📌 핵심 구현 (조준희 · 조장)
+
+- **영화 추천**: 성별 · 연령대 · 선호 장르 · 계절별 · Top10 등 추천 조회를 MyBatis 매퍼(recommend-mapper)로 구현
+- **오늘의 추천 자동 갱신**: `@Scheduled`로 매일 자정 평점 2.5 이상 · 평가 10건 이상 영화 중 10편을 새로 선정
+- **영화 검색**: 검색 REST API와 최근 검색어 · 인기 검색어
+- **관리자 · 회원 기능**: 영화 · 배우 · 회원 · 리뷰 CRUD, 회원 마이페이지(평가 · 리뷰 · 찜 목록)
+- **팀 운영**: DB 설계, GitHub 저장소 · PR 관리
+ 
 ### ⚙️개발 환경
 
 - 운영체제 : Windows 10/11
 - 사용언어 : Java, JavaScript, HTML, CSS
-- FrameWork/Library : Spring Framework, MyBatis, Bootstrap
+- FrameWork/Library : Spring Boot 2.7, MyBatis, Bootstrap
 - DB : Oracle
 - Tool : Spring Tool Suite, Visual Studio Code, DBeaver, Jenkins, AWS
 - WAS : Apache Tomcat
